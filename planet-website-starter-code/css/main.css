@@ -41,6 +41,9 @@ img {
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+.top-bar {
     background-color: #ccc;
 }
 
