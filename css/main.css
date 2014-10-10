@@ -84,8 +84,6 @@ h2 {
 }
     
 .nav {
-    margin: 0;
-    padding: 0;
     list-style-type: none;
 }
 
@@ -103,7 +101,7 @@ a:link, a:visited, a:hover {
      background-color: #D1D0CE;
 }
 
-backcolor {
+.backcolor {
     background-color: #E8E8E8;
 }
 
@@ -116,7 +114,7 @@ backcolor {
 
 nav ul li a:hover {
     color: white;
-    background-color: blue;
+    background-color: #0066CC;
 }
 
 nav ul li {
@@ -125,7 +123,7 @@ nav ul li {
 }
 
 .pad-top {
-    background-color: #F8F8F8;
+    background-color: #F0F0F0;
 }
 
 @media only screen and (min-width: 30em) {
@@ -140,7 +138,7 @@ nav ul li {
 @media only screen and (min-width: 50em) {
     
     .nav {
-        float: left;
+        float: center;
         overflow: hidden;
     }
     
