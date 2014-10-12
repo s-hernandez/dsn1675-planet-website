@@ -82,6 +82,10 @@ h2 {
     margin-bottom: none;
 }
 
+.nav-bottom {
+    float: center;
+}
+
 .top-bar {
     background-color: #ccc;
     overflow: hidden;
