@@ -16,6 +16,24 @@ html {
   text-size-adjust: 100%;
 }
 
+@media only screen and (min-width 60) {
+    html {
+        font-size:  110%;
+    }
+}
+
+@media only screen and (min-width 90) {
+    html {
+        font-size: 120%;
+    }
+}
+
+@media only screen and (min-width 120) {
+    html:{
+        font-size: 130%;
+    }
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -78,12 +96,14 @@ h2 {
     
 .nav {
     list-style-type: none;
-    margin-top: 1.5rem;
-    margin-bottom: none;
 }
 
 .nav-bottom {
     float: center;
+}
+
+.credit {
+    float: left;
 }
 
 .top-bar {
@@ -93,7 +113,7 @@ h2 {
 
 a:link, a:visited, a:hover {
     text-decoration: none;
-    color: black;
+    display: block;
 }
 
 .background {
@@ -129,16 +149,22 @@ nav ul li {
     margin-top: 1rem;
 }
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 25em) {
     
     .nav {
         text-align: center;
     }
     .nav li {
         display: inline-block; 
+    }
+        
+    .copyright {
+    text-align: center;
+    }
+
 }
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 38em) {
     
     .nav {
         float: center;
@@ -153,4 +179,22 @@ nav ul li {
    .top-bar{
        overflow: hidden;
     }
+    
+     .bigp {
+        padding-right: 1.5rem;
+    }
 }
+    
+@media only screen and (min-width: 60em) {
+    
+    .nav {
+        float: center;
+    }
+    
+    .bigp {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    
+}
+    
