@@ -171,6 +171,10 @@ nav ul li {
         overflow: hidden;
     }
     
+    .nav-footer {
+        float: right;
+    }
+    
     h1 {
         float: left;
         margin: 0;
@@ -183,12 +187,25 @@ nav ul li {
      .bigp {
         padding-right: 1.5rem;
     }
+    
+    .copyright {
+    text-align: left;
+    }
 }
     
 @media only screen and (min-width: 60em) {
     
     .nav {
         float: center;
+    }
+    
+    .nav-footer {
+        float: right;
+    }
+    
+    .datalist dt {
+        width: 12em;
+        float: left;
     }
     
     .bigp {
