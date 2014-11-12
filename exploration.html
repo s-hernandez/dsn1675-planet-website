@@ -2,8 +2,9 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-    <title></title>
+    <title>Exploration</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700|Merriweather:400,400italic,700" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/typography.css" rel="stylesheet">
@@ -16,21 +17,68 @@
 </ul>
 
 <header role="banner">
-<div class="top-bar">
-    <h1 class="title peta">Saturn</h1>
-        <nav>
-            <ul class="nav">
-                <li class="mega"><a href="index.html">Planets</a></li>
-                <li class="mega"><a href="moons.html">Moons</a></li>
-                <li class="mega"><a href="exploration.html">Exploration</a></li>
-            </ul>
-        </nav>  
-</div>
+    <div class="top-bar">
+        <h1 class="title peta push-none">Saturn</h1>
+            <nav>
+                <ul class="nav brand-family push-none">
+                    <li class="mega"><a class= "island-half" href="index.html">Planets</a></li>
+                    <li class="mega"><a class="island-half" href="moons.html">Moons</a></li>
+                    <li class="mega"><a class="island-half nav-current" href="exploration.html">Exploration</a></li>
+                </ul>
+            </nav>  
+    </div>
 </header>
+    
 <main id="main" role="main">
     <div class="forms">   
-            <p class="peta centertext"><strong>Exploration</strong></p>
-        </div>
+        <p class="peta brand-family centertext"><strong>Exploration</strong></p>
+    </div>
+
+<table>
+<thead>
+    <tr>
+        <th scope="col" rowspan="2">Mission</th>
+        <th scope="col" rowspan="2">Launch</th>
+        <th scope="col" rowspan="2">Arrival</th>
+        <th scope="col" rowspan="2">Termination</th>
+        <th scope="col" rowspan="2">Objective</th>
+    </tr>
+</thead>
+    
+<tbody>
+    <tr>
+        <th scope="row">Pioneer 11</th>
+        <td>April 6, 1973</td> 
+        <td>September 1, 1979</td> 
+        <td>September 5, 1980</td> 
+        <td>Flyby</td>
+    </tr>
+
+    <tr>
+        <th scope="row">Voyager 1</th>
+        <td>September 1, 1979</td> 
+        <td>November 13, 1980</td> 
+        <td>November 16,1990</td> 
+        <td>Flyby</td>
+    </tr>
+
+    <tr>
+        <th scope="row">Voyager 2</th>
+        <td>August 20, 1977</td> 
+        <td>August 26, 1981</td> 
+        <td>August 30,1991</td> 
+        <td>Flyby</td>
+    </tr>
+
+    <tr>
+        <th scope="row">Cassini</th>
+        <td>October 13 1997</td> 
+        <td>July 1, 2004</td> 
+        <td>Ongoing</td> 
+        <td>Orbiter/Atmospheric probe</td>
+    </tr>
+</tbody>
+</table>
 
 <div class="island backcolor">    
 <h2 class="centertext mega">Join Saturn's Exploration Team</h3>
@@ -42,7 +90,7 @@
         
             <div>
                 <label for="name">Name</label>
-                <input class="push box" id="name">
+                <input class="push box push-half" id="name">
             </div>
 
             <div>
@@ -70,7 +118,7 @@
                 </select>
             </div>
             
-<p class="push-none"><i>Your level of Awesomness:</i></p>          
+<p class="push-half"><i>Your level of Awesomness:</i></p>          
        
             <span class="radio">
                 <input type="radio" id="meh" name="level-of-awesomness">
@@ -86,27 +134,29 @@
             </span>
         
             
-            <div class="push push-0">
+            <div class="island-1-2 push-0">
                 <label for="explain">Explain why you deserve to go:</label>
                 <textarea class="boxsize" id="explain"></textarea>
             </div>
 
             <div class="centertext island">
-                <button type="submit">Sign Up</button>
+                <button type="submit"><a href="thankyou.html">Sign Up</a></button>
             </div>
             </div>
         </form>
     </div>
 </main>
     
-<footer>
-    <div class="grid background" role="contentinfo">
-    <p class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">© 2014 Saturn Planetary Consortium .<a href="#top">Top</a></p>
-        <nav class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-            <ul class="nav">
-                <li class="mega"><a href="index.html">Planets</a></li>
-                <li class="mega"><a href="moons.html">Moons</a></li>
-                <li class="mega"><a href="explorations.html">Exploration</a></li>
+<footer class="grid island-1-2 background" role="contentinfo">
+  <div role="contentinfo" class="unit micro unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">
+    <p class="micro copyright push-0">© 2014 Saturn Planetary Consortium . <a href="#top">Top</a></p>
+      </div>
+      <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3">
+        <nav>
+            <ul class="nav nav-footer milli push-0">
+                <li class="milli island-1-2"><a href="index.html">Planets</a></li>
+                <li class="milli island-1-2"><a href="moons.html">Moons</a></li>
+                <li class="milli island-1-2"><a href="exploration.html">Exploration</a></li>
             </ul>
         </nav>
     </div>

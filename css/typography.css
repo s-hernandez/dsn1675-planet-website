@@ -1,12 +1,12 @@
 html {
-  font: normal 100%/1.5 Helvetica,serif;
+  font: normal 100%/1.5 "Merriweather",serif;
 }
 
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
 fieldset, pre, table {
-  margin: 0 0 1.5rem;
+  margin: 0 0 3rem;
 }
 
 .yotta {
@@ -22,6 +22,7 @@ fieldset, pre, table {
 h1, .exa {
   font-size: 1.8020rem;
   line-height: 1.6648;
+    background-color: #000;
 }
 
 h2, .peta {
@@ -140,4 +141,9 @@ s
 .gutter-double, .gutter-2 {
   padding-left: 3.0000rem;
   padding-right: 3.0000rem;
+}
+
+h1, h2, h3, h4, h5, h6,
+.brand-family {
+    font-family: "Open Sans", sans-serif;
 }
