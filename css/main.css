@@ -81,7 +81,7 @@ img {
 .gutter {
     padding-left: 1em;
     padding-right: 1em;
-    background-color: #FFCC33;
+    background-color:  #FFFFCC;
 }
 
 figure {
@@ -118,6 +118,10 @@ h1 {
     background-color: #FFCC33;
 }
 
+.colouR {
+    color: black;
+}
+
 .intro {
     background-color: #e2e2e2;
     overflow: hidden;
@@ -126,8 +130,8 @@ h1 {
 
 h2 {
     text-decoration: none;
-    color: #FFFFCC;
-    background-color: #FFCC33;
+    color: #FFCC33;
+    background-color:  #FFFFCC;
 }
     
 .nav {
@@ -201,7 +205,7 @@ label {
 input + label {
     display: inline-block;
     font-size: .8em;
-}
+}s
 
 button {
     font-size: 1em;
